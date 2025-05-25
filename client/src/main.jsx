@@ -5,7 +5,7 @@ import App from "./App";
 import { TransactionsProvider } from "./context/TransactionContext";
 import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root')!); // Create a root
+const root = ReactDOM.createRoot(document.getElementById('root')); // Create a root
 
 root.render( // Use root.render
     <React.StrictMode>
